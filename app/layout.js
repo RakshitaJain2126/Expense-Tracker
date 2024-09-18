@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Expense Tracker - Manage Your Finances",
     description: "Take control of your finances with our easy-to-use Expense Tracker. Organize, categorize, and track your expenses efficiently.",
-    url: "https://expensetracker-gamma-gilt.vercel.app/",
+    url: "https://expense-tracker-tau-umber.vercel.app",
     type: "website",
   }
 };
