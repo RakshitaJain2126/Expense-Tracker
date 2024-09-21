@@ -268,6 +268,7 @@ export default function Home() {
               className="w-full p-3 border border-gray-300 rounded-md text-gray-800"
               type="text"
               placeholder="Enter Item"
+              required
             />
             <input
               value={newItem.price}
@@ -277,6 +278,7 @@ export default function Home() {
               className="w-full p-3 border border-gray-300 rounded-md text-gray-800"
               type="number"
               placeholder="Enter Amount"
+              required
             />
 
             <div className="relative">
@@ -293,6 +295,7 @@ export default function Home() {
                   type="text"
                   placeholder="Enter Category"
                   onClick={() => setShowCategoryList(!showCategoryList)}
+                  required
                 />
                 <button
                   type="button"
